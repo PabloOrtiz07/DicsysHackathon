@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pablo\\source\\repos\\WebApplicationHackathon\\WebApplicationHackathon\\WebApplicationHackathon.csproj": {}
+    "C:\\Users\\Pablo\\Desktop\\DicsysHackathon\\WebApplicationHackathon\\WebApplicationHackathon\\WebApplicationHackathon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pablo\\source\\repos\\WebApplicationHackathon\\WebApplicationHackathon\\WebApplicationHackathon.csproj": {
+    "C:\\Users\\Pablo\\Desktop\\DicsysHackathon\\WebApplicationHackathon\\WebApplicationHackathon\\WebApplicationHackathon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pablo\\source\\repos\\WebApplicationHackathon\\WebApplicationHackathon\\WebApplicationHackathon.csproj",
+        "projectUniqueName": "C:\\Users\\Pablo\\Desktop\\DicsysHackathon\\WebApplicationHackathon\\WebApplicationHackathon\\WebApplicationHackathon.csproj",
         "projectName": "WebApplicationHackathon",
-        "projectPath": "C:\\Users\\Pablo\\source\\repos\\WebApplicationHackathon\\WebApplicationHackathon\\WebApplicationHackathon.csproj",
+        "projectPath": "C:\\Users\\Pablo\\Desktop\\DicsysHackathon\\WebApplicationHackathon\\WebApplicationHackathon\\WebApplicationHackathon.csproj",
         "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pablo\\source\\repos\\WebApplicationHackathon\\WebApplicationHackathon\\obj\\",
+        "outputPath": "C:\\Users\\Pablo\\Desktop\\DicsysHackathon\\WebApplicationHackathon\\WebApplicationHackathon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

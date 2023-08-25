@@ -11,6 +11,8 @@ Nuestra solución presenta las siguientes características principales:
 
 - **Filtros Avanzados:** Abordamos la problemática de la gestión de postulantes mediante el uso de filtros en la base de datos. Esto permitirá al personal de Dicsys Academy organizar y clasificar las solicitudes de manera eficiente, agilizando el proceso de selección.
 
+### Anotaciones
+No pudimos relacionar el frontend con el backend, por ende, cada parte se debe revisar por separado.
 # Cómo Poner en Marcha la Aplicación
 Para ejecutar la aplicación en tu entorno local, sigue estos pasos:
 

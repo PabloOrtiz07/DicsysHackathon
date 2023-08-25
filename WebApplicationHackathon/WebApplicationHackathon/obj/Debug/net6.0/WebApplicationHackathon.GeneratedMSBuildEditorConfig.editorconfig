@@ -16,12 +16,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Pablo\Desktop\DicsysHackathon\WebApplicationHackathon\WebApplicationHackathon
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Pablo/Desktop/DicsysHackathon/WebApplicationHackathon/WebApplicationHackathon/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/Pablo/Desktop/DicsysHackathon/WebApplicationHackathon/WebApplicationHackathon/Views/Ingresante/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVzYW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Pablo/Desktop/DicsysHackathon/WebApplicationHackathon/WebApplicationHackathon/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/Pablo/Desktop/DicsysHackathon/WebApplicationHackathon/WebApplicationHackathon/Views/Ingresante/Ingresante_Registro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVzYW50ZVxJbmdyZXNhbnRlX1JlZ2lzdHJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Pablo/Desktop/DicsysHackathon/WebApplicationHackathon/WebApplicationHackathon/Views/Shared/Error.cshtml]

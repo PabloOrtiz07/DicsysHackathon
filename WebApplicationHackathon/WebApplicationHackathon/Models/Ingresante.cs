@@ -9,6 +9,10 @@ public partial class Ingresante
 
     public string? Nombre { get; set; }
 
+    public int? Edad { get; set; }
+
+    public string? Nacionalidad { get; set; }
+
     public string? Correo { get; set; }
 
     public string? Dni { get; set; }

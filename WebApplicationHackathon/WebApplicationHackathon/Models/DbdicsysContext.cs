@@ -29,13 +29,13 @@ public partial class DbdicsysContext : DbContext
     {
         modelBuilder.Entity<Ingresante>(entity =>
         {
-            entity.HasKey(e => e.IdIngresante).HasName("PK__Ingresan__293BBB9DC1B9DCE7");
+            entity.HasKey(e => e.IdIngresante).HasName("PK__Ingresan__293BBB9D59974E84");
 
             entity.ToTable("Ingresante");
 
-            entity.HasIndex(e => e.Correo, "UQ__Ingresan__2A586E0BC06EAA77").IsUnique();
+            entity.HasIndex(e => e.Correo, "UQ__Ingresan__2A586E0BB30080A5").IsUnique();
 
-            entity.HasIndex(e => e.Dni, "UQ__Ingresan__D87608A7E014ED95").IsUnique();
+            entity.HasIndex(e => e.Dni, "UQ__Ingresan__D87608A79E22729D").IsUnique();
 
             entity.Property(e => e.IdIngresante)
                 .ValueGeneratedNever()
@@ -49,12 +49,17 @@ public partial class DbdicsysContext : DbContext
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasColumnName("dni");
+            entity.Property(e => e.Edad).HasColumnName("edad");
             entity.Property(e => e.ExperienciaIt).HasColumnName("experiencia_it");
             entity.Property(e => e.ExperienciaLaboralNoIt).HasColumnName("experiencia_laboral_no_it");
             entity.Property(e => e.Github)
                 .HasMaxLength(100)
                 .IsUnicode(false)
                 .HasColumnName("github");
+            entity.Property(e => e.Nacionalidad)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("nacionalidad");
             entity.Property(e => e.Nombre)
                 .HasMaxLength(50)
                 .IsUnicode(false)
@@ -63,7 +68,7 @@ public partial class DbdicsysContext : DbContext
 
         modelBuilder.Entity<Rol>(entity =>
         {
-            entity.HasKey(e => e.IdRol).HasName("PK__Rol__6ABCB5E045632AA8");
+            entity.HasKey(e => e.IdRol).HasName("PK__Rol__6ABCB5E02B0445CD");
 
             entity.ToTable("Rol");
 
@@ -78,13 +83,11 @@ public partial class DbdicsysContext : DbContext
 
         modelBuilder.Entity<Usuario>(entity =>
         {
-            entity.HasKey(e => e.IdUsuario).HasName("PK__Usuario__4E3E04AD25FCACB5");
+            entity.HasKey(e => e.IdUsuario).HasName("PK__Usuario__4E3E04ADEC7D6267");
 
             entity.ToTable("Usuario");
 
-            entity.Property(e => e.IdUsuario)
-                .ValueGeneratedNever()
-                .HasColumnName("id_usuario");
+            entity.Property(e => e.IdUsuario).HasColumnName("id_usuario");
             entity.Property(e => e.Contrasena)
                 .HasMaxLength(50)
                 .IsUnicode(false)

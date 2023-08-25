@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d0is5vQ1XE8lJ7K5TFB4lS9SPLQxN4KJWcfrYEHq8zdaYAnRUI7CMK/nTXEnydT5okhNLCzLEOuXp206rTN7RA==",
+  "dgSpecHash": "RJzSnGXmfLpl0Q4nDfwqy+Vw6odvHleCdhKaZnnI5Lq37y0n27J2HTozb6UQbEMe6Cfuze6QaCPMuFOvFZhEgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pablo\\Desktop\\DicsysHackathon\\WebApplicationHackathon\\WebApplicationHackathon\\WebApplicationHackathon.csproj",
   "expectedPackageFiles": [
@@ -110,6 +110,7 @@
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.visualstudio.debugger.contracts\\17.2.0\\microsoft.visualstudio.debugger.contracts.17.2.0.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\6.0.16\\microsoft.visualstudio.web.codegeneration.6.0.16.nupkg.sha512",
     "C:\\Users\\Pablo\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\6.0.16\\microsoft.visualstudio.web.codegeneration.core.6.0.16.nupkg.sha512",

@@ -8,7 +8,7 @@ const options: ApexOptions = {
     position: 'top',
     horizontalAlign: 'left',
   },
-  colors: ['#3C50E0', '#80CAEE'],
+  colors: ['#3056D3', '#80CAEE', '#FFA500', '#7CFC00'],
   chart: {
     fontFamily: 'Satoshi, sans-serif',
     height: 335,
@@ -70,7 +70,7 @@ const options: ApexOptions = {
   markers: {
     size: 4,
     colors: '#fff',
-    strokeColors: ['#3056D3', '#80CAEE'],
+    strokeColors: ['#3056D3', '#80CAEE', '#FFA500', '#7CFC00'],
     strokeWidth: 3,
     strokeOpacity: 0.9,
     strokeDashArray: 0,
@@ -84,18 +84,10 @@ const options: ApexOptions = {
   xaxis: {
     type: 'category',
     categories: [
-      'Sep',
-      'Oct',
-      'Nov',
-      'Dec',
-      'Jan',
       'Feb',
       'Mar',
       'Apr',
       'May',
-      'Jun',
-      'Jul',
-      'Aug',
     ],
     axisBorder: {
       show: false,
@@ -111,7 +103,7 @@ const options: ApexOptions = {
       },
     },
     min: 0,
-    max: 100,
+    max: 70,
   },
 };
 
@@ -124,16 +116,23 @@ interface ChartOneState {
 
 const ChartOne: React.FC = () => {
   const [state, setState] = useState<ChartOneState>({
-    series: [
+    series: [    
       {
-        name: 'Product One',
-        data: [23, 11, 22, 27, 13, 22, 37, 21, 44, 22, 30, 45],
+        name: '2020',
+        data: [5, 15, 27, 30],
       },
-
       {
-        name: 'Product Two',
-        data: [30, 25, 36, 30, 45, 35, 64, 52, 59, 36, 39, 51],
+        name: '2021',
+        data: [8, 20, 32, 35],
       },
+      {
+        name: '2022',
+        data: [10, 25, 39, 45],
+      },
+      {
+        name: '2023',
+        data: [15, 30, 44, 70],
+      },      
     ],
   });
 
@@ -145,19 +144,6 @@ const ChartOne: React.FC = () => {
             <div className="w-full">
               <p className="font-semibold text-primary">Cantidad de postulaciones</p>
             </div>
-          </div>
-        </div>
-        <div className="flex w-full max-w-45 justify-end">
-          <div className="inline-flex items-center rounded-md bg-whiter p-1.5 dark:bg-meta-4">
-            <button className="rounded bg-white py-1 px-3 text-xs font-medium text-black shadow-card hover:bg-white hover:shadow-card dark:bg-boxdark dark:text-white dark:hover:bg-boxdark">
-              Day
-            </button>
-            <button className="rounded py-1 px-3 text-xs font-medium text-black hover:bg-white hover:shadow-card dark:text-white dark:hover:bg-boxdark">
-              Week
-            </button>
-            <button className="rounded py-1 px-3 text-xs font-medium text-black hover:bg-white hover:shadow-card dark:text-white dark:hover:bg-boxdark">
-              Month
-            </button>
           </div>
         </div>
       </div>

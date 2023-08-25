@@ -19,12 +19,10 @@ export const LandingPage=() =>{
                 <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                   <div className="pr-12">
                     <h1 className="text-white font-semibold text-5xl">
-                      Your story starts with us.
+                      Tu historia comienza en Dicsys Academy.
                     </h1>
                     <p className="mt-4 text-lg text-gray-300">
-                      This is a simple example of a Landing Page you can build
-                      using Tailwind Starter Kit. It features multiple CSS
-                      components based on the Tailwindcss design system.
+                    En nuestra academia de formación en tecnología de la información, te ofrecemos la oportunidad de adentrarte en el emocionante mundo de la informática y la tecnología. Nuestros cursos están diseñados para brindarte las habilidades y conocimientos necesarios para destacar en la industria de la tecnología. Desde programación y desarrollo web hasta seguridad cibernética y análisis de datos, nuestros expertos instructores te guiarán a través de un viaje de aprendizaje integral. Ya sea que estés buscando iniciar una nueva carrera o mejorar tus habilidades existentes, nuestra academia está aquí para ayudarte a alcanzar tus metas en el campo de la tecnología.
                     </p>
                   </div>
                 </div>
@@ -61,9 +59,9 @@ export const LandingPage=() =>{
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                       <i className="fas fa-award"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">Awarded Agency</h6>
+                    <h6 className="text-xl font-semibold">Apoyo profesional</h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.
+                    Expertos guían tu desarrollo, creando habilidades sólidas para el éxito laboral.
                     </p>
                   </div>
                 </div>
@@ -76,10 +74,10 @@ export const LandingPage=() =>{
                       <i className="fas fa-retweet"></i>
                     </div>
                     <h6 className="text-xl font-semibold">
-                      Free Revisions
+                      Oportunidad de empleo
                     </h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.
+                    Oportunidades de empleo: Conectamos talento formado en nuestra academia con emocionantes posiciones laborales.
                     </p>
                   </div>
                 </div>
@@ -92,10 +90,10 @@ export const LandingPage=() =>{
                       <i className="fas fa-fingerprint"></i>
                     </div>
                     <h6 className="text-xl font-semibold">
-                      Verified Company
+                      Ambiente super amigable
                     </h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!
+                    Fomentamos un entorno cálido y acogedor donde cada estudiante se siente valorado y motivado.
                     </p>
                   </div>
                 </div>
@@ -109,25 +107,11 @@ export const LandingPage=() =>{
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Working with us is a pleasure
+                  Capacitate con nosotros
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                  Don't let your uses guess by attaching tooltips and popoves
-                  to any element. Just make sure you enable them first via
-                  JavaScript.
+                Capacítate con nosotros y descubre un camino hacia el éxito. Nuestros programas de formación en tecnología te brindan habilidades prácticas y actualizadas. Con instructores expertos y recursos de vanguardia, te ofrecemos una educación relevante para enfrentar los desafíos de hoy. Únete para crecer profesionalmente y destacar en el mercado laboral.
                 </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and
-                  you're good to go. Just make sure you enable them first via
-                  JavaScript.
-                </p>
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-                  className="font-bold text-gray-800 mt-8"
-                >
-                  Check Tailwind Starter Kit!
-                </a>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -205,12 +189,10 @@ export const LandingPage=() =>{
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
                   <h3 className="text-3xl font-semibold">
-                    A growing company
+                    Somos una compañia en crecimiento
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
+                  Nuestra pasión por la excelencia y la innovación nos impulsa a expandirnos constantemente. Ofrecemos un entorno dinámico donde cada miembro puede contribuir significativamente. Únete a nosotros y sé parte de nuestro emocionante viaje mientras construimos un futuro exitoso juntos.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
@@ -222,7 +204,7 @@ export const LandingPage=() =>{
                         </div>
                         <div>
                           <h4 className="text-gray-600">
-                            Carefully crafted components
+                            Innovación
                           </h4>
                         </div>
                       </div>
@@ -235,7 +217,7 @@ export const LandingPage=() =>{
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600">Amazing page examples</h4>
+                          <h4 className="text-gray-600">Creatividad</h4>
                         </div>
                       </div>
                     </li>
@@ -247,7 +229,7 @@ export const LandingPage=() =>{
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600">Dynamic components</h4>
+                          <h4 className="text-gray-600">Compromiso</h4>
                         </div>
                       </div>
                     </li>
@@ -264,12 +246,10 @@ export const LandingPage=() =>{
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold">
-                  Here are our heroes
+                  Sé parte de Dicsys Academy
                 </h2>
                 <p className="text-lg leading-relaxed m-4 text-gray-600">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
+                En nuestra academia, creemos en tu potencial para alcanzar grandes logros. Con el apoyo adecuado y las herramientas correctas, puedes convertirte en un profesional exitoso en el mundo de la tecnología. Únete a nosotros y comienza tu viaje hacia un futuro brillante y prometedor.
                 </p>
               </div>
             </div>
@@ -284,10 +264,10 @@ export const LandingPage=() =>{
                   /> */}
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">
-                      Ryan Tompson
+                    Diego Casali
                     </h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Web Developer
+                      Director
                     </p>
                     <div className="mt-6">
                       <button
@@ -322,10 +302,10 @@ export const LandingPage=() =>{
                   /> */}
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">
-                      Romina Hadid
+                      Mauro Busso
                     </h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Marketing Specialist
+                      CEO
                     </p>
                     <div className="mt-6">
                       <button
@@ -354,10 +334,10 @@ export const LandingPage=() =>{
                   /> */}
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">
-                      Alexa Smith
+                    Daiana Isasi
                     </h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      UI/UX Designer
+                    People Care 
                     </p>
                     <div className="mt-6">
                       <button
@@ -392,10 +372,10 @@ export const LandingPage=() =>{
                   /> */}
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">
-                      Jenna Kardi
+                    Tamara Stucher
                     </h5>
                     <p className="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                      Founder and CEO
+                      RRHH
                     </p>
                     <div className="mt-6">
                       <button
@@ -454,12 +434,8 @@ export const LandingPage=() =>{
           <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold text-white">
-                  Build something
-                </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                  Put the potentially record low maximum sea ice extent tihs year down to low ice.
-                  According to the National Oceanic and Atmospheric Administration, Ted, Scambos.
+                Cada día es una nueva oportunidad para crecer, aprender y superar límites. Mantén tus ojos en tus metas y tu corazón en tu pasión. Con determinación y esfuerzo, puedes conquistar cualquier desafío. ¡Tu potencial es ilimitado, y el éxito está a tu alcance!
                 </p>
               </div>
             </div>
@@ -469,11 +445,11 @@ export const LandingPage=() =>{
                   <i className="fas fa-medal text-xl"></i>
                 </div>
                 <h6 className="text-xl mt-5 font-semibold text-white">
-                  Excelent Services
-                </h6>
+                Materiales Actualizados
+</h6>
                 <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Mantenemos nuestros programas y materiales actualizados para reflejar las últimas tendencias y avances en tecnología. Esto asegura que los estudiantes estén equipados con conocimientos relevantes y de vanguardia.
+
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -481,11 +457,9 @@ export const LandingPage=() =>{
                   <i className="fas fa-poll text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
-                  Grow your market
-                </h5>
+                Red de Contactos</h5>
                 <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Más allá del aula, te brindamos la oportunidad de conectarte con profesionales y expertos en tecnología. Nuestra amplia red de contactos te permite acceder a oportunidades laborales, pasantías y colaboraciones valiosas en la industria.
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -493,83 +467,11 @@ export const LandingPage=() =>{
                   <i className="fas fa-lightbulb text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
-                  Launch time
+                Enfoque Práctico
                 </h5>
                 <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Nos enfocamos en el aprendizaje práctico y la aplicación de habilidades reales. A través de proyectos y casos de estudio, los estudiantes desarrollan soluciones tangibles, preparándose para enfrentar situaciones del mundo real.
                 </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section className="relative block py-24 lg:pt-0 bg-gray-900">
-          <div className="container mx-auto px-4">
-            <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-              <div className="w-full lg:w-6/12 px-4">
-                <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
-                  <div className="flex-auto p-5 lg:p-10">
-                    <h4 className="text-2xl font-semibold">
-                      Want to work with us?
-                    </h4>
-                    <p className="leading-relaxed mt-1 mb-4 text-gray-600">
-                      Complete this form and we will get back to you in 24 hours.
-                    </p>
-                    <div className="relative w-full mb-3 mt-8">
-                      <label
-                        className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                        htmlFor="full-name"
-                      >
-                        Full Name
-                      </label>
-                      <input
-                        type="text"
-                        className="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                        placeholder="Full Name"
-                        style={{ transition: "all .15s ease" }}
-                      />
-                    </div>
-
-                    <div className="relative w-full mb-3">
-                      <label
-                        className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                        htmlFor="email"
-                      >
-                        Email
-                      </label>
-                      <input
-                        type="email"
-                        className="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                        placeholder="Email"
-                        style={{ transition: "all .15s ease" }}
-                      />
-                    </div>
-
-                    <div className="relative w-full mb-3">
-                      <label
-                        className="block uppercase text-gray-700 text-xs font-bold mb-2"
-                        htmlFor="message"
-                      >
-                        Message
-                      </label>
-                      <textarea
-                        rows="4"
-                        cols="80"
-                        className="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                        placeholder="Type a message..."
-                      />
-                    </div>
-                    <div className="text-center mt-6">
-                      <button
-                        className="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                        type="button"
-                        style={{ transition: "all .15s ease" }}
-                      >
-                        Send Message
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

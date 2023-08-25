@@ -1,5 +1,6 @@
 import ChartOne from '../components/ChartOne.tsx';
 import ChartThree from '../components/ChartThree.tsx';
+import ChartTwo from '../components/ChartTwo.tsx';
 import MapOne from '../components/MapOne.tsx';
 import TableOne from '../components/TableOne.tsx';
 
@@ -14,6 +15,7 @@ export const Dashboard = () => {
                 <MapOne />
                 <div className="col-span-12 xl:col-span-8">
                     <TableOne />
+                    <ChartTwo/>
                 </div>
             </div>
         </div>

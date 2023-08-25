@@ -1,5 +1,5 @@
 import { useRef} from 'react'
-import backgroundImage from '../assets/background_dicsys.png';
+import backgroundImage from '../images/background_dicsys.png';
 
 export const Login=() =>{
     let user = useRef()

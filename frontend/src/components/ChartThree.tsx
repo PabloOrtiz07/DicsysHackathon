@@ -11,7 +11,7 @@ const options: ApexOptions = {
     type: 'donut',
   },
   colors: ['#10B981', '#375E83', '#259AE6', '#FFA70B'],
-  labels: ['min 20', 'min 30', 'min 40', 'may 40'],
+  labels: ['Menores de 20', 'Menores de 30', 'Menores de 40', 'Mayores de 40'],
   legend: {
     show: true,
     position: 'bottom',

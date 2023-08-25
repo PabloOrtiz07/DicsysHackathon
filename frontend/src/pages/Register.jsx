@@ -49,10 +49,9 @@ export const Register = () => {
                                     Inscribite a la Dicsys Academy 2023 en este formulario.
                                 </p>
                                 <div className="mt-2 grid grid-cols-1 gap-x-6 gap-y-3 sm:grid-cols-6">
-                                    {/** ACA EMPIEZA LO NUEVO */}
                                     {/* Nombre y apellido */}
                                     <div className="col-span-full">
-                                        <label htmlFor="nombreapellido" className="block text-sm font-medium leading-6 text-gray-900">
+                                        <label htmlFor="nombreapellido" className="block text-sm font-medium leading-6 text-gray-900 text-left">
                                             Nombre y apellido
                                         </label>
                                         <div className="mt-2">
@@ -72,7 +71,7 @@ export const Register = () => {
 
                                     {/* Correo */}
                                     <div className="col-span-full">
-                                        <label htmlFor="correo" className="block text-sm font-medium leading-6 text-gray-900">
+                                        <label htmlFor="correo" className="block text-sm font-medium leading-6 text-gray-900 text-left">
                                             Correo electrónico
                                         </label>
                                         <div className="mt-2">
@@ -92,7 +91,7 @@ export const Register = () => {
 
                                     {/* DNI */}
                                     <div className="col-span-full">
-                                        <label htmlFor="dni" className="block text-sm font-medium leading-6 text-gray-900">
+                                        <label htmlFor="dni" className="block text-sm font-medium leading-6 text-gray-900 text-left">
                                             DNI
                                         </label>
                                         <div className="mt-2">
@@ -112,7 +111,7 @@ export const Register = () => {
 
                                     {/* GitHub */}
                                     <div className="col-span-full">
-                                        <label htmlFor="github" className="block text-sm font-medium leading-6 text-gray-900">
+                                        <label htmlFor="github" className="block text-sm font-medium leading-6 text-gray-900 text-left">
                                             GitHub
                                         </label>
                                         <div className="mt-2">
@@ -131,7 +130,7 @@ export const Register = () => {
 
                                     {/* Experiencia en IT */}
                                     <div className="col-span-full">
-                                        <label htmlFor="experienciait" className="block text-sm font-medium leading-6 text-gray-900">
+                                        <label htmlFor="experienciait" className="block text-sm font-medium leading-6 text-gray-900 text-left">
                                             Experiencia en IT
                                         </label>
                                         <div className="mt-2">
@@ -151,7 +150,7 @@ export const Register = () => {
 
                                     {/* Años de experiencia */}
                                     <div className="col-span-full">
-                                        <label htmlFor="aniosexperiencia" className="block text-sm font-medium leading-6 text-gray-900">
+                                        <label htmlFor="aniosexperiencia" className="block text-sm font-medium leading-6 text-gray-900 text-left">
                                             Años de experiencia en IT
                                         </label>
                                         <div className="mt-2">
@@ -170,7 +169,7 @@ export const Register = () => {
 
                                     {/* Experiencia laboral no IT */}
                                     <div className="col-span-full">
-                                        <label htmlFor="experiencialaboralnoit" className="block text-sm font-medium leading-6 text-gray-900">
+                                        <label htmlFor="experiencialaboralnoit" className="block text-sm font-medium leading-6 text-gray-900 text-left">
                                             Experiencia laboral no relacionada con IT
                                         </label>
                                         <div className="mt-2">
@@ -188,7 +187,7 @@ export const Register = () => {
                                     </div>
                                     {/* Cursos y hackatones */}
                                     <div className="col-span-full">
-                                        <label htmlFor="cursoshackatones" className="block text-sm font-medium leading-6 text-gray-900">
+                                        <label htmlFor="cursoshackatones" className="block text-sm font-medium leading-6 text-gray-900 text-left">
                                             Cursos y hackatones realizados
                                         </label>
                                         <div className="mt-2">
@@ -207,7 +206,7 @@ export const Register = () => {
 
                                     {/* Provincia */}
                                     <div className="col-span-full">
-                                        <label htmlFor="provincia" className="block text-sm font-medium leading-6 text-gray-900">
+                                        <label htmlFor="provincia" className="block text-sm font-medium leading-6 text-gray-900 text-left">
                                             Provincia
                                         </label>
                                         <div className="mt-2">
@@ -226,7 +225,7 @@ export const Register = () => {
 
                                     {/* Edad */}
                                     <div className="col-span-full">
-                                        <label htmlFor="edad" className="block text-sm font-medium leading-6 text-gray-900">
+                                        <label htmlFor="edad" className="block text-sm font-medium leading-6 text-gray-900 text-left">
                                             Edad
                                         </label>
                                         <div className="mt-2">
@@ -245,7 +244,7 @@ export const Register = () => {
 
                                     {/* Carrera universitaria */}
                                     <div className="col-span-full">
-                                        <label htmlFor="carrerauniversitaria" className="block text-sm font-medium leading-6 text-gray-900">
+                                        <label htmlFor="carrerauniversitaria" className="block text-sm font-medium leading-6 text-gray-900 text-left">
                                             Carrera universitaria
                                         </label>
                                         <div className="mt-2">
@@ -264,7 +263,7 @@ export const Register = () => {
 
                                     {/* Conocimiento de bases de datos */}
                                     <div className="col-span-full">
-                                        <label htmlFor="conocimientobd" className="block text-sm font-medium leading-6 text-gray-900">
+                                        <label htmlFor="conocimientobd" className="block text-sm font-medium leading-6 text-gray-900 text-left">
                                             Conocimiento de bases de datos
                                         </label>
                                         <div className="mt-2">
@@ -286,7 +285,7 @@ export const Register = () => {
 
                                     {/* Participación en academy */}
                                     <div className="col-span-full">
-                                        <label htmlFor="participacionacademy" className="block text-sm font-medium leading-6 text-gray-900">
+                                        <label htmlFor="participacionacademy" className="block text-sm font-medium leading-6 text-gray-900 text-left">
                                             Participación en anterior Academy
                                         </label>
                                         <div className="mt-2">
@@ -306,7 +305,7 @@ export const Register = () => {
 
                                     {/* Proceso de selección */}
                                     <div className="col-span-full">
-                                        <label htmlFor="procesoseleccion" className="block text-sm font-medium leading-6 text-gray-900">
+                                        <label htmlFor="procesoseleccion" className="block text-sm font-medium leading-6 text-gray-900 text-left">
                                             ¿Tuviste algún proceso de selección en Dicsys?
                                         </label>
                                         <div className="mt-2">

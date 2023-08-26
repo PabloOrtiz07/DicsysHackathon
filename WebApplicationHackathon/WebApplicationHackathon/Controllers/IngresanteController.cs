@@ -65,14 +65,7 @@ namespace WebApplicationHackathon.Controllers
         [HttpPost]
         public IActionResult Ingresante_Registro(Ingresante ingresante)
         {
-            if (ingresante.IdIngresante == 0)
-            {
-                // Consultar la base de datos para obtener el último índice
-                int ultimoIndice = _DBContext.Ingresantes.Max(i => i.IdIngresante);
-
-                // Asignar el nuevo índice sumándole 1 al último índice
-                ingresante.IdIngresante = ultimoIndice + 1;
-            }
+            // No es necesario asignar un nuevo ID manualmente
 
             _DBContext.Ingresantes.Add(ingresante);
             _DBContext.SaveChanges();

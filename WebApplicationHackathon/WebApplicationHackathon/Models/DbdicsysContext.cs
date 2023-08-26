@@ -29,13 +29,13 @@ public partial class DbdicsysContext : DbContext
     {
         modelBuilder.Entity<Ingresante>(entity =>
         {
-            entity.HasKey(e => e.IdIngresante).HasName("PK__Ingresan__293BBB9D6FC17D58");
+            entity.HasKey(e => e.IdIngresante).HasName("PK__Ingresan__293BBB9D161BF394");
 
             entity.ToTable("Ingresante");
 
-            entity.HasIndex(e => e.Correo, "UQ__Ingresan__2A586E0B8BD460D2").IsUnique();
+            entity.HasIndex(e => e.Correo, "UQ__Ingresan__2A586E0B17E47581").IsUnique();
 
-            entity.HasIndex(e => e.Dni, "UQ__Ingresan__D87608A7B3F04619").IsUnique();
+            entity.HasIndex(e => e.Dni, "UQ__Ingresan__D87608A78D5BF656").IsUnique();
 
             entity.Property(e => e.IdIngresante).HasColumnName("id_ingresante");
             entity.Property(e => e.AniosExperiencia).HasColumnName("anios_experiencia");
@@ -66,7 +66,7 @@ public partial class DbdicsysContext : DbContext
 
         modelBuilder.Entity<Rol>(entity =>
         {
-            entity.HasKey(e => e.IdRol).HasName("PK__Rol__6ABCB5E0D2D4F661");
+            entity.HasKey(e => e.IdRol).HasName("PK__Rol__6ABCB5E0B2E89436");
 
             entity.ToTable("Rol");
 
@@ -81,7 +81,7 @@ public partial class DbdicsysContext : DbContext
 
         modelBuilder.Entity<Usuario>(entity =>
         {
-            entity.HasKey(e => e.IdUsuario).HasName("PK__Usuario__4E3E04AD34297158");
+            entity.HasKey(e => e.IdUsuario).HasName("PK__Usuario__4E3E04AD8F08DDD8");
 
             entity.ToTable("Usuario");
 

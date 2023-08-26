@@ -23,23 +23,21 @@ public partial class DbdicsysContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=(local); Database=DBDICSYS; Trusted_Connection=True; TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=(local); DataBase=DBDICSYS; Trusted_Connection=True; TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Ingresante>(entity =>
         {
-            entity.HasKey(e => e.IdIngresante).HasName("PK__Ingresan__293BBB9D59974E84");
+            entity.HasKey(e => e.IdIngresante).HasName("PK__Ingresan__293BBB9D6FC17D58");
 
             entity.ToTable("Ingresante");
 
-            entity.HasIndex(e => e.Correo, "UQ__Ingresan__2A586E0BB30080A5").IsUnique();
+            entity.HasIndex(e => e.Correo, "UQ__Ingresan__2A586E0B8BD460D2").IsUnique();
 
-            entity.HasIndex(e => e.Dni, "UQ__Ingresan__D87608A79E22729D").IsUnique();
+            entity.HasIndex(e => e.Dni, "UQ__Ingresan__D87608A7B3F04619").IsUnique();
 
-            entity.Property(e => e.IdIngresante)
-                .ValueGeneratedNever()
-                .HasColumnName("id_ingresante");
+            entity.Property(e => e.IdIngresante).HasColumnName("id_ingresante");
             entity.Property(e => e.AniosExperiencia).HasColumnName("anios_experiencia");
             entity.Property(e => e.Correo)
                 .HasMaxLength(50)
@@ -68,7 +66,7 @@ public partial class DbdicsysContext : DbContext
 
         modelBuilder.Entity<Rol>(entity =>
         {
-            entity.HasKey(e => e.IdRol).HasName("PK__Rol__6ABCB5E02B0445CD");
+            entity.HasKey(e => e.IdRol).HasName("PK__Rol__6ABCB5E0D2D4F661");
 
             entity.ToTable("Rol");
 
@@ -83,7 +81,7 @@ public partial class DbdicsysContext : DbContext
 
         modelBuilder.Entity<Usuario>(entity =>
         {
-            entity.HasKey(e => e.IdUsuario).HasName("PK__Usuario__4E3E04ADEC7D6267");
+            entity.HasKey(e => e.IdUsuario).HasName("PK__Usuario__4E3E04AD34297158");
 
             entity.ToTable("Usuario");
 
